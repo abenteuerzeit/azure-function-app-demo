@@ -12,6 +12,13 @@ namespace Azure_Function_Name
 {
     public static class Function1
     {
+        /*
+            Function authorization requires passing a token value to the code key in the function URL
+
+            Make sure the connection string value is added to the Azure App Service Settings ConStr Remote key 
+            while punlishing via Visual Studio
+         
+         */
         [FunctionName("Function1")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req, ILogger log)

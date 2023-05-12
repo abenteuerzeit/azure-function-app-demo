@@ -1,0 +1,8 @@
+{
+  /*
+
+      Schema for the function contains which tool generated this document
+      https://github.com/Azure/azure-functions-host/wiki/function.json
+  */
+  "generatedBy": "Microsoft.NET.Sdk.Functions-4.1.1"
+}

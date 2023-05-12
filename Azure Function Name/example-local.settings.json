@@ -1,8 +1,18 @@
 {
-    "IsEncrypted": false,
-    "Values": {
-        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-      "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-      "ConStr":  "Insert Connection String from Storage Account"
-    }
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "ConStr": "Insert Connection String from Storage Account"
+  }
 }
+
+/*
+  ~~~ CONNECTION STRING CONFIGURATION ~~~
+
+  1. Go to a Microsoft Azure Storage Account
+  2. Select "Access keys'
+  3. Copy and Paste the selected storage account's connection string into local.settings.json
+  4. You can paste the same connection string into AzureWebJobsStorage
+
+*/
