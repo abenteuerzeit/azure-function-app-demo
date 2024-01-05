@@ -1,7 +1,8 @@
 repo_name: abenteuerzeit/azure-function-app-demo
 report_id: 4989ed15d7748b7bb35743d6d90d0d45
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-12T10:23:45+00:00'
+timestamp: '2024-01-05T08:49:04+00:00'
 requested_by: abenteuerzeit
 provider: github
 branch: development
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/abenteuerzeit/azure-function-app-demo
   detection_source: Repo Metadata
 - name: ".NET Core"
   description: An Open Source, General-Purpose Development Platform Maintained by
@@ -28,7 +30,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
-  detection_source_url: Azure Function Name/Azure Function Name.csproj
+  detection_source_url: https://github.com/abenteuerzeit/azure-function-app-demo/blob/development/Azure
+    Function Name/Azure Function Name.csproj
   detection_source: Azure Function Name/Azure Function Name.csproj
   last_updated_by: v-adrianmroz
   last_updated_on: 2023-05-11 14:33:05.000000000 Z
@@ -43,7 +46,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/11331/asp.net-core.png
-  detection_source_url: Azure Function Name/Azure Function Name.csproj
+  detection_source_url: https://github.com/abenteuerzeit/azure-function-app-demo/blob/development/Azure
+    Function Name/Azure Function Name.csproj
   detection_source: Azure Function Name/Azure Function Name.csproj
   last_updated_by: v-adrianmroz
   last_updated_on: 2023-05-11 14:33:05.000000000 Z
@@ -55,6 +59,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/abenteuerzeit/azure-function-app-demo
   detection_source: Repo Metadata
 - name: Visual Studio
   description: State-of-the-art tools and services that you can use to create great
@@ -65,6 +70,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/abenteuerzeit/azure-function-app-demo/blob/development/Demo.sln
   detection_source: Demo.sln
   last_updated_by: v-adrianmroz
   last_updated_on: 2023-05-11 14:33:05.000000000 Z
